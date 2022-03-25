@@ -1,6 +1,7 @@
 body {
 
     font-family: 'League Spartan', sans-serif;
+    font-size:1.5rem;
     margin: 0;
     text-align: center;
     width:100%;
@@ -23,14 +24,31 @@ img {
 .bottom-container   {
 
 }
+.hobby {
+    max-width: 20rem;
+}
+a {
+    color:#11999E;
+text-decoration: none;
+}
+a:hover {
+    color:#244849;
+    text-decoration: underline;
+    text-decoration-color:#11999E;
+    cursor:copy;
+}
 h1 {
 color: #11999E;
 font-family: sacramento, cursive;
 font-size: 8rem;
 margin: 2rem auto 0;
 }
+h2 {
+    color:#40514E; 
+}
 h3 {
 font-family: montserrat, sans-serif;
+color:#40514E;
 
 }
 .bottomcloud {
@@ -45,15 +63,11 @@ font-family: montserrat, sans-serif;
 }
 .programmer {
     color:#11999E;
-    margin:0px;
     font-size:2.5rem;
+    margin:0px;
 }
 .mypic {
+    border-radius: 50%;
     height:auto;
     max-width: 150px;
-    border-radius: 50%;
-}
-
-.middle-container img {
-    border-radius: 50%;
 }
