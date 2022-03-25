@@ -1,39 +1,35 @@
 body {
 
     font-family: 'League Spartan', sans-serif;
-    margin: 0px;
+    margin: 0;
+    text-align: center;
+    width:100%;
+}
+img {
+    max-width: 100%;
 }
 
 .top-container {
     background-color: #E4F9F5;
-    font-size:x-large;
+    font-size:3rem;
     padding-top: 10%;
     position: relative;
-    text-align: center;
-    
+   
 }
+
 .middle-container   {
-    background-color: red;
-    height: 200px;
-    position: relative;
-    width: 200px;
+
 }
 .bottom-container   {
-    background-color: blue;
-    height: 200px;
-    left:100px;
-    position: relative;
-    top: -100px;
-    /* display:inline-block; */
-    width: 200px;
+
 }
 h1 {
-font-family: sacramento, cursive;
-font-size:3em;
 color: #11999E;
-margin: 0;
+font-family: sacramento, cursive;
+font-size: 8rem;
+margin: 2rem auto 0;
 }
-h2, h3 {
+h3 {
 font-family: montserrat, sans-serif;
 
 }
@@ -48,6 +44,16 @@ font-family: montserrat, sans-serif;
     top: 6%;
 }
 .programmer {
-    margin:0px;
     color:#11999E;
+    margin:0px;
+    font-size:2.5rem;
+}
+.mypic {
+    height:auto;
+    max-width: 150px;
+    border-radius: 50%;
+}
+
+.middle-container img {
+    border-radius: 50%;
 }
