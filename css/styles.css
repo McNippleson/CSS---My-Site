@@ -42,9 +42,11 @@ color: #11999E;
 font-family: sacramento, cursive;
 font-size: 8rem;
 margin: 2rem auto 0;
+line-height: 1.2;
 }
 h2 {
     color:#40514E; 
+    font-weight:normal;
 }
 h3 {
 font-family: montserrat, sans-serif;
