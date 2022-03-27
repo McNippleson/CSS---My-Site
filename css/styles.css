@@ -5,6 +5,7 @@ body {
     margin: 0;
     text-align: center;
     width:100%;
+    color:#40514E
 }
 img {
     max-width: 100%;
@@ -50,11 +51,12 @@ hr {
     max-width: 20rem;
 }
 .hobbytext {
+    width:90%;
 }
 .skill-row  {
     line-height:1.5;
     margin:3% auto 7%;
-    max-width: 50%;
+    max-width: 60rem;
     text-align: left;
 }
 a {
@@ -119,6 +121,7 @@ h3 {
     font-size: 20px;
     padding: 10px 20px 10px 20px;
     text-decoration: none;
+    font-family: 'League Spartan', sans-serif;
   }
   
   .btn:hover {
@@ -133,4 +136,7 @@ h3 {
   .button {
       display: block;
       padding: 1% 0 2%;
+  }
+  .copyright {
+      font-size: smaller;
   }
